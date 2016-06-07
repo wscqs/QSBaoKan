@@ -21,6 +21,12 @@
 		2C1993281D06AEF1009242C6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1993271D06AEF1009242C6 /* UIColor+Extension.swift */; };
 		2C19932A1D06B2AA009242C6 /* QSProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1993291D06B2AA009242C6 /* QSProgressHUD.swift */; };
 		2C19932C1D06B65F009242C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C19932B1D06B65F009242C6 /* LaunchScreen.storyboard */; };
+		2C19932E1D06B8B9009242C6 /* api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19932D1D06B8B9009242C6 /* api.swift */; };
+		2C1993301D06B905009242C6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19932F1D06B905009242C6 /* UIView+Extension.swift */; };
+		2C1993321D06B968009242C6 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1993311D06B968009242C6 /* UIImage+Extension.swift */; };
+		2C1993341D06B9CB009242C6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1993331D06B9CB009242C6 /* String+Extension.swift */; };
+		2C1993361D06BA3D009242C6 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1993351D06BA3D009242C6 /* NSDate+Extension.swift */; };
+		2C1993381D06BB01009242C6 /* QSNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1993371D06BB01009242C6 /* QSNetworkTool.swift */; };
 		832FA04E0644CAFCE59BF344 /* Pods_QSBaoKan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126F46F1388FAB08FD073704 /* Pods_QSBaoKan.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +70,12 @@
 		2C1993271D06AEF1009242C6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		2C1993291D06B2AA009242C6 /* QSProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSProgressHUD.swift; sourceTree = "<group>"; };
 		2C19932B1D06B65F009242C6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C19932D1D06B8B9009242C6 /* api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = api.swift; sourceTree = "<group>"; };
+		2C19932F1D06B905009242C6 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		2C1993311D06B968009242C6 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		2C1993331D06B9CB009242C6 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		2C1993351D06BA3D009242C6 /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
+		2C1993371D06BB01009242C6 /* QSNetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSNetworkTool.swift; sourceTree = "<group>"; };
 		5A83AF62F47CEDA74DBD9132 /* Pods-QSBaoKan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSBaoKan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QSBaoKan/Pods-QSBaoKan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				2C1993251D06AB51009242C6 /* QSCommon.swift */,
+				2C19932D1D06B8B9009242C6 /* api.swift */,
 			);
 			path = Comment;
 			sourceTree = "<group>";
@@ -167,7 +180,11 @@
 		2C1992FA1D0671AA009242C6 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				2C19932F1D06B905009242C6 /* UIView+Extension.swift */,
 				2C1993271D06AEF1009242C6 /* UIColor+Extension.swift */,
+				2C1993311D06B968009242C6 /* UIImage+Extension.swift */,
+				2C1993331D06B9CB009242C6 /* String+Extension.swift */,
+				2C1993351D06BA3D009242C6 /* NSDate+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -307,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				2C1993291D06B2AA009242C6 /* QSProgressHUD.swift */,
+				2C1993371D06BB01009242C6 /* QSNetworkTool.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -522,13 +540,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1993341D06B9CB009242C6 /* String+Extension.swift in Sources */,
 				2C1993201D06AAE9009242C6 /* QSNewsViewController.swift in Sources */,
 				2C1993221D06AB02009242C6 /* QSPhotoViewController.swift in Sources */,
 				2C1993241D06AB0C009242C6 /* QSProfileViewController.swift in Sources */,
 				2C19932A1D06B2AA009242C6 /* QSProgressHUD.swift in Sources */,
+				2C19932E1D06B8B9009242C6 /* api.swift in Sources */,
 				2C1993161D069FD0009242C6 /* QSMainTabBarController.swift in Sources */,
+				2C1993361D06BA3D009242C6 /* NSDate+Extension.swift in Sources */,
 				2C1993261D06AB51009242C6 /* QSCommon.swift in Sources */,
 				2C1992C91D066A22009242C6 /* AppDelegate.swift in Sources */,
+				2C1993381D06BB01009242C6 /* QSNetworkTool.swift in Sources */,
+				2C1993301D06B905009242C6 /* UIView+Extension.swift in Sources */,
+				2C1993321D06B968009242C6 /* UIImage+Extension.swift in Sources */,
 				2C1993281D06AEF1009242C6 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
