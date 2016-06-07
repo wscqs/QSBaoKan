@@ -1,0 +1,17 @@
+[
+ {
+    "vcName": "QSNewsViewController",
+    "title": "资讯",
+    "imageName": "tabbar_icon_news"
+ },
+ {
+     "vcName": "QSPhotoViewController",
+     "title": "图秀",
+     "imageName": "tabbar_icon_media"
+ },
+ {
+     "vcName": "QSProfileViewController",
+     "title": "我",
+     "imageName": "tabbar_icon_me"
+ }
+ ]

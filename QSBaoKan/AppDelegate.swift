@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,9 +16,47 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        setupGlobalStyle()        // 配置全局样式
+//        setupGlobalData()         // 配置全局数据
+        setupRootViewController() // 配置控制器
+        setupKeyBoardManager()    // 配置键盘管理
+
         return true
     }
+    
+    /**
+     全局样式
+     */
+    private func setupGlobalStyle() {
+        // 设置导航条和工具条的外观
+        // 因为外观一旦设置全局有效, 所以应该在程序一进来就设置
+        UINavigationBar.appearance().tintColor = UIColor.orangeColor()
+        UITabBar.appearance().tintColor = UIColor.orangeColor()
+        
+        UIApplication.sharedApplication().statusBarHidden = false
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
+        QSProgressHUD.setupHUD() // 配置HUD
+
+    }
+    
+    /**
+     跟控制器
+     */
+    private func setupRootViewController() {
+        window = UIWindow(frame: SCREEN_BOUNDS)
+        window?.backgroundColor = UIColor.whiteColor()
+        window?.rootViewController = QSMainTabBarController()
+        window?.makeKeyAndVisible()
+    }
+    
+    /**
+     配置键盘管理者
+     */
+    private func setupKeyBoardManager() {
+        IQKeyboardManager.sharedManager().enable = true
+    }
+    
+    
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		2C1992C91D066A22009242C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1992C81D066A22009242C6 /* AppDelegate.swift */; };
-		2C1992CB1D066A22009242C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1992CA1D066A22009242C6 /* ViewController.swift */; };
-		2C1992CE1D066A22009242C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1992CC1D066A22009242C6 /* Main.storyboard */; };
 		2C1992D01D066A22009242C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1992CF1D066A22009242C6 /* Assets.xcassets */; };
-		2C1992D31D066A22009242C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1992D11D066A22009242C6 /* LaunchScreen.storyboard */; };
 		2C1992DE1D066A22009242C6 /* QSBaoKanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1992DD1D066A22009242C6 /* QSBaoKanTests.swift */; };
 		2C1992E91D066A22009242C6 /* QSBaoKanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1992E81D066A22009242C6 /* QSBaoKanUITests.swift */; };
+		2C1992F71D066CD6009242C6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2C1992F61D066CD6009242C6 /* Podfile */; };
+		2C1993161D069FD0009242C6 /* QSMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1993151D069FD0009242C6 /* QSMainTabBarController.swift */; };
+		2C1993181D06A14F009242C6 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C1993171D06A14F009242C6 /* MainVCSettings.json */; };
+		2C1993201D06AAE9009242C6 /* QSNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19931F1D06AAE9009242C6 /* QSNewsViewController.swift */; };
+		2C1993221D06AB02009242C6 /* QSPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1993211D06AB02009242C6 /* QSPhotoViewController.swift */; };
+		2C1993241D06AB0C009242C6 /* QSProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1993231D06AB0C009242C6 /* QSProfileViewController.swift */; };
+		2C1993261D06AB51009242C6 /* QSCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1993251D06AB51009242C6 /* QSCommon.swift */; };
+		2C1993281D06AEF1009242C6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1993271D06AEF1009242C6 /* UIColor+Extension.swift */; };
+		2C19932A1D06B2AA009242C6 /* QSProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1993291D06B2AA009242C6 /* QSProgressHUD.swift */; };
+		2C19932C1D06B65F009242C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C19932B1D06B65F009242C6 /* LaunchScreen.storyboard */; };
+		832FA04E0644CAFCE59BF344 /* Pods_QSBaoKan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126F46F1388FAB08FD073704 /* Pods_QSBaoKan.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02C3C9EE726794B5C3C5E5F6 /* Pods-QSBaoKan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSBaoKan.release.xcconfig"; path = "Pods/Target Support Files/Pods-QSBaoKan/Pods-QSBaoKan.release.xcconfig"; sourceTree = "<group>"; };
+		126F46F1388FAB08FD073704 /* Pods_QSBaoKan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QSBaoKan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1992C51D066A22009242C6 /* QSBaoKan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSBaoKan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1992C81D066A22009242C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C1992CA1D066A22009242C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C1992CD1D066A22009242C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C1992CF1D066A22009242C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C1992D21D066A22009242C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C1992D41D066A22009242C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C1992D91D066A22009242C6 /* QSBaoKanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSBaoKanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1992DD1D066A22009242C6 /* QSBaoKanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSBaoKanTests.swift; sourceTree = "<group>"; };
@@ -47,6 +54,17 @@
 		2C1992E41D066A22009242C6 /* QSBaoKanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSBaoKanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1992E81D066A22009242C6 /* QSBaoKanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSBaoKanUITests.swift; sourceTree = "<group>"; };
 		2C1992EA1D066A22009242C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1992F61D066CD6009242C6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2C1993151D069FD0009242C6 /* QSMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSMainTabBarController.swift; sourceTree = "<group>"; };
+		2C1993171D06A14F009242C6 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		2C19931F1D06AAE9009242C6 /* QSNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSNewsViewController.swift; sourceTree = "<group>"; };
+		2C1993211D06AB02009242C6 /* QSPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSPhotoViewController.swift; sourceTree = "<group>"; };
+		2C1993231D06AB0C009242C6 /* QSProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSProfileViewController.swift; sourceTree = "<group>"; };
+		2C1993251D06AB51009242C6 /* QSCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSCommon.swift; sourceTree = "<group>"; };
+		2C1993271D06AEF1009242C6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		2C1993291D06B2AA009242C6 /* QSProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSProgressHUD.swift; sourceTree = "<group>"; };
+		2C19932B1D06B65F009242C6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A83AF62F47CEDA74DBD9132 /* Pods-QSBaoKan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSBaoKan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QSBaoKan/Pods-QSBaoKan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				832FA04E0644CAFCE59BF344 /* Pods_QSBaoKan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +96,13 @@
 		2C1992BC1D066A22009242C6 = {
 			isa = PBXGroup;
 			children = (
+				2C1992F61D066CD6009242C6 /* Podfile */,
 				2C1992C71D066A22009242C6 /* QSBaoKan */,
 				2C1992DC1D066A22009242C6 /* QSBaoKanTests */,
 				2C1992E71D066A22009242C6 /* QSBaoKanUITests */,
 				2C1992C61D066A22009242C6 /* Products */,
+				98A04EB83737D407F3256EBA /* Pods */,
+				41267291FB01DF4ACEAC9836 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				2C1992C81D066A22009242C6 /* AppDelegate.swift */,
-				2C1992CA1D066A22009242C6 /* ViewController.swift */,
-				2C1992CC1D066A22009242C6 /* Main.storyboard */,
-				2C1992CF1D066A22009242C6 /* Assets.xcassets */,
-				2C1992D11D066A22009242C6 /* LaunchScreen.storyboard */,
-				2C1992D41D066A22009242C6 /* Info.plist */,
+				2C1992F81D0671AA009242C6 /* Classes */,
+				2C1993141D0671EF009242C6 /* Resource */,
 			);
 			path = QSBaoKan;
 			sourceTree = "<group>";
@@ -125,6 +144,200 @@
 			path = QSBaoKanUITests;
 			sourceTree = "<group>";
 		};
+		2C1992F81D0671AA009242C6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C1992F91D0671AA009242C6 /* Comment */,
+				2C1992FA1D0671AA009242C6 /* Extension */,
+				2C1992FB1D0671AA009242C6 /* Model */,
+				2C1992FC1D0671AA009242C6 /* Module */,
+				2C1993131D0671AA009242C6 /* Utils */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2C1992F91D0671AA009242C6 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				2C1993251D06AB51009242C6 /* QSCommon.swift */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		2C1992FA1D0671AA009242C6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2C1993271D06AEF1009242C6 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2C1992FB1D0671AA009242C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C1992FC1D0671AA009242C6 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				2C1992FD1D0671AA009242C6 /* Main */,
+				2C1992FF1D0671AA009242C6 /* News */,
+				2C1993031D0671AA009242C6 /* Photo */,
+				2C1993071D0671AA009242C6 /* Profile */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		2C1992FD1D0671AA009242C6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2C1993171D06A14F009242C6 /* MainVCSettings.json */,
+				2C1992FE1D0671AA009242C6 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2C1992FE1D0671AA009242C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C1993151D069FD0009242C6 /* QSMainTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C1992FF1D0671AA009242C6 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				2C1993001D0671AA009242C6 /* Controller */,
+				2C1993011D0671AA009242C6 /* Model */,
+				2C1993021D0671AA009242C6 /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		2C1993001D0671AA009242C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C19931F1D06AAE9009242C6 /* QSNewsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C1993011D0671AA009242C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C1993021D0671AA009242C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C1993031D0671AA009242C6 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				2C1993041D0671AA009242C6 /* Controller */,
+				2C1993051D0671AA009242C6 /* Model */,
+				2C1993061D0671AA009242C6 /* View */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		2C1993041D0671AA009242C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C1993211D06AB02009242C6 /* QSPhotoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C1993051D0671AA009242C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C1993061D0671AA009242C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C1993071D0671AA009242C6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2C1993081D0671AA009242C6 /* Controller */,
+				2C1993091D0671AA009242C6 /* Model */,
+				2C19930A1D0671AA009242C6 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2C1993081D0671AA009242C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C1993231D06AB0C009242C6 /* QSProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C1993091D0671AA009242C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C19930A1D0671AA009242C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C1993131D0671AA009242C6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2C1993291D06B2AA009242C6 /* QSProgressHUD.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2C1993141D0671EF009242C6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2C19932B1D06B65F009242C6 /* LaunchScreen.storyboard */,
+				2C1992CF1D066A22009242C6 /* Assets.xcassets */,
+				2C1992D41D066A22009242C6 /* Info.plist */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		41267291FB01DF4ACEAC9836 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				126F46F1388FAB08FD073704 /* Pods_QSBaoKan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98A04EB83737D407F3256EBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A83AF62F47CEDA74DBD9132 /* Pods-QSBaoKan.debug.xcconfig */,
+				02C3C9EE726794B5C3C5E5F6 /* Pods-QSBaoKan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +345,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C1992ED1D066A22009242C6 /* Build configuration list for PBXNativeTarget "QSBaoKan" */;
 			buildPhases = (
+				25559AB510F635CB6ECF1E5F /* 📦 Check Pods Manifest.lock */,
 				2C1992C11D066A22009242C6 /* Sources */,
 				2C1992C21D066A22009242C6 /* Frameworks */,
 				2C1992C31D066A22009242C6 /* Resources */,
+				C12B706EB5CE0BCCB47FD454 /* 📦 Embed Pods Frameworks */,
+				CB90C27C1CFB9B8277F39023 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +403,10 @@
 		2C1992BD1D066A22009242C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = QS;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = mbalib;
+				ORGANIZATIONNAME = cqs;
 				TargetAttributes = {
 					2C1992C41D066A22009242C6 = {
 						CreatedOnToolsVersion = 7.3;
@@ -229,9 +446,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C1992D31D066A22009242C6 /* LaunchScreen.storyboard in Resources */,
+				2C1993181D06A14F009242C6 /* MainVCSettings.json in Resources */,
+				2C19932C1D06B65F009242C6 /* LaunchScreen.storyboard in Resources */,
 				2C1992D01D066A22009242C6 /* Assets.xcassets in Resources */,
-				2C1992CE1D066A22009242C6 /* Main.storyboard in Resources */,
+				2C1992F71D066CD6009242C6 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +469,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25559AB510F635CB6ECF1E5F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C12B706EB5CE0BCCB47FD454 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QSBaoKan/Pods-QSBaoKan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB90C27C1CFB9B8277F39023 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QSBaoKan/Pods-QSBaoKan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C1992C11D066A22009242C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C1992CB1D066A22009242C6 /* ViewController.swift in Sources */,
+				2C1993201D06AAE9009242C6 /* QSNewsViewController.swift in Sources */,
+				2C1993221D06AB02009242C6 /* QSPhotoViewController.swift in Sources */,
+				2C1993241D06AB0C009242C6 /* QSProfileViewController.swift in Sources */,
+				2C19932A1D06B2AA009242C6 /* QSProgressHUD.swift in Sources */,
+				2C1993161D069FD0009242C6 /* QSMainTabBarController.swift in Sources */,
+				2C1993261D06AB51009242C6 /* QSCommon.swift in Sources */,
 				2C1992C91D066A22009242C6 /* AppDelegate.swift in Sources */,
+				2C1993281D06AEF1009242C6 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +563,6 @@
 			targetProxy = 2C1992E51D066A22009242C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2C1992CC1D066A22009242C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C1992CD1D066A22009242C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2C1992D11D066A22009242C6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C1992D21D066A22009242C6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2C1992EB1D066A22009242C6 /* Debug */ = {
@@ -399,9 +652,11 @@
 		};
 		2C1992EE1D066A22009242C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A83AF62F47CEDA74DBD9132 /* Pods-QSBaoKan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QSBaoKan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mbalib.QSBaoKan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,9 +665,11 @@
 		};
 		2C1992EF1D066A22009242C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C3C9EE726794B5C3C5E5F6 /* Pods-QSBaoKan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QSBaoKan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mbalib.QSBaoKan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +741,7 @@
 				2C1992EF1D066A22009242C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C1992F01D066A22009242C6 /* Build configuration list for PBXNativeTarget "QSBaoKanTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +750,7 @@
 				2C1992F21D066A22009242C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C1992F31D066A22009242C6 /* Build configuration list for PBXNativeTarget "QSBaoKanUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +759,7 @@
 				2C1992F51D066A22009242C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
